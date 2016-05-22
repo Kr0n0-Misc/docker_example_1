@@ -1,3 +1,5 @@
 FROM kdelfour/cloud9-docker
+MAINTAINER Carlos Crisostomo Vals <ccvals@linux.com>
+
+RUN npm install -g mocha chai chai-http
 COPY ./src/ /workspace/
- 
