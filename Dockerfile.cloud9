@@ -1,0 +1,3 @@
+FROM kdelfour/cloud9-docker
+COPY ./src/ /workspace/
+ 
